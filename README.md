@@ -78,15 +78,15 @@ The interesting thing is Babel doesn't seem to have a problem with the async cla
 
 * Vue CLI project, generated from `vue create`, using the following options:
 
-    Vue CLI v3.0.5
-    ? Please pick a preset: Manually select features
-    ? Check the features needed for your project: Babel, TS, Linter, Unit
-    ? Use class-style component syntax? Yes
-    ? Use Babel alongside TypeScript for auto-detected polyfills? Yes
-    ? Pick a linter / formatter config: TSLint
-    ? Pick additional lint features: Lint on save
-    ? Pick a unit testing solution: Jest
-    ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In dedicated config files
+        Vue CLI v3.0.5
+        ? Please pick a preset: Manually select features
+        ? Check the features needed for your project: Babel, TS, Linter, Unit
+        ? Use class-style component syntax? Yes
+        ? Use Babel alongside TypeScript for auto-detected polyfills? Yes
+        ? Pick a linter / formatter config: TSLint
+        ? Pick additional lint features: Lint on save
+        ? Pick a unit testing solution: Jest
+        ? Where do you prefer placing config for Babel, PostCSS, ESLint, etc.? In dedicated config files
 
 * macOS Mojave 10.14
 * Node 10.11.0
