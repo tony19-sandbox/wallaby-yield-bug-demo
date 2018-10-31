@@ -33,10 +33,21 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import { MyUtil } from '@/utils/MyUtil';
 
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
+
+  constructor() {
+    super();
+    this.testGenerator();
+  }
+
+  async testGenerator() {
+    const x = new MyUtil().generate();
+    console.log('generator value:', (await x.next()).value);
+  }
 }
 </script>
 
